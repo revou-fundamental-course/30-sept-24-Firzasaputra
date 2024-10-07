@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>miniproject.Frza</title>
+    <link rel="stylesheet" href="css\styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Kalkulator Konverter Suhu</h1>
+    </header>
+
+    <hr/>
+    <main>
+        <!--form content-->
+        <section>
+            <article>
+                <p>Masukkan suhu derajat Celcius (&deg;C) ke kotak di bawah, lalu klik tombol Konversi untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (&deg;F).</p>
+            </article>
+
+            <form>
+                <div>
+                    <label for="input-suhu">Celcius (&deg;C)</label>
+                </div>
+
+                <textarea id="input-suhu"></textarea>
+
+                <div>
+                    <button>Konversi</button>
+                    <button>Reset</button>
+                    <button>Reverse </button>
+                </div>
+            </form>
+
+            <!--Hasil Inputan-->
+            <div>
+                <div>
+                    <label for="hasil-suhu">Fahrenheit (&deg;F)</label>
+                </div>
+
+                <textarea id="hasil-suhu"></textarea>
+            </div>
+
+            <!--Cara Kalkulasi-->
+            <div>
+                <div>
+                    <label for="how-to-suhu">Cara Kalkulasi :</label>
+                </div>
+
+                <textarea id="how-to-suhu"></textarea>
+            </div>
+        </section>
+
+        <!--info konten-->
+        <section>
+            <header>
+                <h2>Cara Konversi Dari Celcius (&deg;C) ke Fahrenheit (&deg;F)</h2>
+            </header>
+
+            <hr/>
+            <article>
+                <p>Suhu S dalam derajat Fahrenheit (&deg;F) sama dengan suhu S dalam derajat Celcius (&deg;C) kali 9/5 tambah 32.</p>
+            </article>
+            <div>S(&deg;F) = (S(&deg;C) x 9/5) + 32</div>
+            <p>atau</p>
+            <div>S(&deg;F) = (S(&deg;C) x 1.8) + 32</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>frza</p>
+    </footer>
+</body>
